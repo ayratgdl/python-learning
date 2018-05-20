@@ -31,4 +31,26 @@
     random.randrange(from, to) # возвращает число от from до to-1
     random.choise(seq) # возвращает случайный элемент из последовательности seq
 
-  
+## statistics
+Модуль `statistics` входит в стандартную библиотеку и содержит статистические функции.
+Сайт: https://docs.python.org/3/library/statistics.html#module-statistics
+
+Примеры функций:
+
+    statistics.mead(seq) # среднее
+    statistics.median(seq) # медиана
+
+## matplotlib
+Библиотека для построения графиков
+Сайт: https://matplotlib.org/index.html
+
+Установка
+
+    pip install -U matplotlib
+
+Простой пример
+
+    import matplotlib.pyplot as plt
+    plt.plot(range(0, 101), [x**2 for x in range(0, 101)])
+    plt.show()
+    
